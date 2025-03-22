@@ -1,7 +1,7 @@
 # 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
 
  **Our work has been accepted at TMLR 2025!**   
-🔗 [**OpenReview Link**](https://openreview.net/forum?id=avDr56QjSI)  
+🔗 OpenReview Link: [Link](https://openreview.net/forum?id=avDr56QjSI)  
 
 ## 📌 Authors  
 [Hari Chandana Kuchibhotla](https://sites.google.com/view/hari-chandana-kuchibhotla/home), [Sai Srinivas Kancheti](https://ksais.github.io/), [Abbavaram Gowtham Reddy](https://gautam0707.github.io/), and [Vineeth N Balasubramanian](https://people.iith.ac.in/vineethnb/) <br>
@@ -73,9 +73,9 @@ For example:
 bash scripts/sap/base2new_train.sh 0 eurosat 1
 ```
 
-Generalized Zero-Shot (GZS) Setting: Modify SUB=new to SUB=all in the scripts to run in GZS mode.
+Generalized Zero-Shot (GZS) Setting: Modify SUB=new to SUB=all in the base2new_test.sh script to evaluate in GZS mode.
 
-Citation<br>
+### Citation<br>
 If you find our work useful, please consider citing us:
 ```bash
 @article{SAP,
