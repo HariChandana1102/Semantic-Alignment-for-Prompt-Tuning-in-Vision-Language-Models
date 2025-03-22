@@ -51,7 +51,7 @@ pip install setuptools==59.5.0
   Once the datasets are downloaded, copy the semantic descriptions of the respective dataset into its folder.
 
 # Training and Evaluation
-* For training and testing in the base-to-new setting, run the following command
+* For training and testing in the Base-to-Novel setting, run the following command
   ```bash
   bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
   bash scripts/sap/base2new_test.sh ${GPU} ${dataset} ${seed}
