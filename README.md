@@ -38,7 +38,7 @@ cd ..
 * Clone SAP code repository and install requirements
 ```bash
 # Clone SAP code base
-git clone 
+git clone https://github.com/HariChandana1102/Semantic-Alignment-for-Prompt-Tuning-in-Vision-Language-Models.git
 
 cd SAP/
 # Install requirements
