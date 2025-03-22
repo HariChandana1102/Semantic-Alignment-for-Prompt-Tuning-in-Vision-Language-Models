@@ -2,7 +2,7 @@
 
 # Installation
 
-#### Acknowledgement: This readme file for installing datasets is modified from the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
+#### Acknowledgement: This readme file for installation and package requirements follows the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
 
 This codebase is tested on Ubuntu 20.04.2 LTS with Python 3.8. Follow the below steps to create the environment and install dependencies.
 
