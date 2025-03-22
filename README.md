@@ -1,11 +1,11 @@
 # 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
 
-📢 **Our work has been accepted at TMLR!**   
+ **Our work has been accepted at TMLR 2025!**   
 🔗 [**OpenReview Link**](https://openreview.net/forum?id=avDr56QjSI)  
 
 ## 📌 Authors  
 [Hari Chandana Kuchibhotla](https://sites.google.com/view/hari-chandana-kuchibhotla/home), [Sai Srinivas Kancheti](https://ksais.github.io/), [Abbavaram Gowtham Reddy](https://gautam0707.github.io/), and [Vineeth N Balasubramanian](https://people.iith.ac.in/vineethnb/) <br>
-📍 [Indian Institute of Technology Hyderabad (IITH)][https://www.iith.ac.in/]
+📍 [Indian Institute of Technology Hyderabad, India (IITH)][https://www.iith.ac.in/]
 
 
 ## 🔍 Abstract  
@@ -64,7 +64,7 @@ For dataset setup and download, please refer to this [link](https://github.com/m
 
 ### 🚀 Training & Evaluation
 🔹 Base-to-Novel Setting<br>
-To train and test in the Base-to-Novel setting, use:
+      To train and test in the Base-to-Novel setting, use:
 ```bash
 bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
 bash scripts/sap/base2new_test.sh ${GPU} ${dataset} ${seed}
@@ -75,7 +75,7 @@ bash scripts/sap/base2new_train.sh 0 eurosat 1
 ```
 
 🔹 Generalized Zero-Shot (GZS) Setting <br>
-Modify SUB=new to SUB=all in the scripts to run in GZS mode.
+      Modify SUB=new to SUB=all in the scripts to run in GZS mode.
 
 📜 Citation<br>
 If you find our work useful, please consider citing us:
@@ -87,4 +87,4 @@ If you find our work useful, please consider citing us:
   year={2024}
 }
 ```
-### Acknowledgement: This code repository is built on [PromptSRC](https://github.com/muzairkhattak/PromptSRC/tree/main)
+#### Acknowledgement: This code repository is built on [PromptSRC](https://github.com/muzairkhattak/PromptSRC/tree/main), Thanks to the authors!
