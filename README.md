@@ -1,5 +1,7 @@
 # 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
 
+Keywords: Vision-Language Models, Prompt Tuning, Semantic Alignment, CLIP, Large Language Models  
+
  **Our work has been accepted at TMLR 2025!**   
 🔗 OpenReview Link: [https://openreview.net/forum?id=avDr56QjSI](https://openreview.net/forum?id=avDr56QjSI)  
 
