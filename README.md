@@ -2,8 +2,6 @@
 
 # Installation
 
-#### Acknowledgement: This readme file for installation and package requirements follows the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
-
 This codebase is tested on Ubuntu 20.04.2 LTS with Python 3.8. Follow the below steps to create the environment and install dependencies.
 
 * Setup conda environment (recommended).
@@ -48,9 +46,11 @@ pip install -r requirements.txt
 # Update setuptools package 
 pip install setuptools==59.5.0
 ```
+# Datasets
 * For downloading the datasets, please follow https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md
   Once the datasets are downloaded, copy the semantic descriptions of the respective dataset into its folder.
 
+# Training and Evaluation
 * For training and testing in the base-to-new setting, run the following command
   ```bash
   bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
@@ -58,3 +58,7 @@ pip install setuptools==59.5.0
 
   # For example:  bash scripts/sap/base2new_train.sh 0 eurosat 1
   ```
+  To run the code in the GZS setting, change the SUB=new to SUB=all
+
+##### Acknowledgement: This readme file for installation and package requirements follows the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
+
