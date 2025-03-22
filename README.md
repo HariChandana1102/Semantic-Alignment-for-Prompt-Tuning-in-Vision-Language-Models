@@ -66,10 +66,10 @@ pip install -r requirements.txt
 pip install setuptools==59.5.0
 ```
 ### 🔹 Datasets
-For dataset setup and download, please refer to this [**link**][https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md] 
+For dataset setup and download, please refer to this [link][https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md] 
 
 ### 🚀 Training & Evaluation
-🔹 Base-to-Novel Setting
+🔹 Base-to-Novel Setting\\
 To train and test in the Base-to-Novel setting, use:
 ```bash
 bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
@@ -80,10 +80,10 @@ For example:
 bash scripts/sap/base2new_train.sh 0 eurosat 1
 ```
 
-🔹 Generalized Zero-Shot (GZS) Setting
+🔹 Generalized Zero-Shot (GZS) Setting \\
 Modify SUB=new to SUB=all in the scripts to run in GZS mode.
 
-📜 Citation
+📜 Citation\\
 If you find our work useful, please consider citing us:
 ```bash
 @article{SAP,
@@ -93,4 +93,4 @@ If you find our work useful, please consider citing us:
   year={2024}
 }
 ```
-### Acknowledgement: This code repository is built on [***PromptSRC***][https://github.com/muzairkhattak/PromptSRC/tree/main]
+### Acknowledgement: This code repository is built on [PromptSRC][https://github.com/muzairkhattak/PromptSRC/tree/main]
