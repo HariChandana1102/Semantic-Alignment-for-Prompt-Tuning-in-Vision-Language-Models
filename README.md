@@ -1,7 +1,7 @@
 # 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
 
  **Our work has been accepted at TMLR 2025!**   
-🔗 OpenReview Link: [Link](https://openreview.net/forum?id=avDr56QjSI)  
+🔗 OpenReview Link: [https://openreview.net/forum?id=avDr56QjSI](https://openreview.net/forum?id=avDr56QjSI)  
 
 ## 📌 Authors  
 [Hari Chandana Kuchibhotla](https://sites.google.com/view/hari-chandana-kuchibhotla/home), [Sai Srinivas Kancheti](https://ksais.github.io/), [Abbavaram Gowtham Reddy](https://gautam0707.github.io/), and [Vineeth N Balasubramanian](https://people.iith.ac.in/vineethnb/) <br>
