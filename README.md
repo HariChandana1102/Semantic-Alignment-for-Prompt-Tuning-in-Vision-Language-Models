@@ -48,3 +48,5 @@ pip install -r requirements.txt
 # Update setuptools package 
 pip install setuptools==59.5.0
 ```
+* For downloading the datasets, please follow https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md
+  Once the datasets are downloaded, copy the semantic descriptions of the respective dataset into its folder.
