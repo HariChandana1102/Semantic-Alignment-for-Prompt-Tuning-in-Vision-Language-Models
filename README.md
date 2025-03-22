@@ -64,10 +64,11 @@ pip install setuptools==59.5.0
 
 # Citation
 If you find our work interesting or use it to develop it further, please cite us
+```
 @article{SAP,
   title={Semantic Alignment for Prompt Tuning in Vision-Language Models},
   author={Hari Chandana Kuchibhotla, Sai Srinivas Kancheti, Abbavaram Gowtham Reddy and Vineeth N Balasubramanian},
   journal={TMLR},
   year={2024}
 }
-
+```
