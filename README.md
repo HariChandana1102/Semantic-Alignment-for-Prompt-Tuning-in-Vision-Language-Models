@@ -1,4 +1,4 @@
-# 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
+# 🌟[TMLR] Semantic Alignment for Prompt Tuning in Vision-Language Models
 
 Keywords: Vision-Language Models, Prompt Tuning, Semantic Alignment, CLIP, Large Language Models  
 
