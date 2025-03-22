@@ -4,7 +4,7 @@
 🔗 [**OpenReview Link**](https://openreview.net/forum?id=avDr56QjSI)  
 
 ## 📌 Authors  
-[Hari Chandana Kuchibhotla[https://sites.google.com/view/hari-chandana-kuchibhotla/home], [Sai Srinivas Kancheti][https://ksais.github.io/], [Abbavaram Gowtham Reddy][https://gautam0707.github.io/], and [Vineeth N Balasubramanian][https://people.iith.ac.in/vineethnb/]
+[Hari Chandana Kuchibhotla](https://sites.google.com/view/hari-chandana-kuchibhotla/home), [Sai Srinivas Kancheti](https://ksais.github.io/), [Abbavaram Gowtham Reddy](https://gautam0707.github.io/), and [Vineeth N Balasubramanian](https://people.iith.ac.in/vineethnb/) <br>
 📍 [Indian Institute of Technology Hyderabad (IITH)][https://www.iith.ac.in/]
 
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 pip install setuptools==59.5.0
 ```
 ### 🔹 Datasets
-For dataset setup and download, please refer to this [link][https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md] 
+For dataset setup and download, please refer to this [link](https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md)
 
 ### 🚀 Training & Evaluation
 🔹 Base-to-Novel Setting<br>
@@ -87,4 +87,4 @@ If you find our work useful, please consider citing us:
   year={2024}
 }
 ```
-### Acknowledgement: This code repository is built on [PromptSRC][https://github.com/muzairkhattak/PromptSRC/tree/main]
+### Acknowledgement: This code repository is built on [PromptSRC](https://github.com/muzairkhattak/PromptSRC/tree/main)
