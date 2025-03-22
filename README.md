@@ -69,7 +69,7 @@ pip install setuptools==59.5.0
 For dataset setup and download, please refer to this [link][https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md] 
 
 ### 🚀 Training & Evaluation
-🔹 Base-to-Novel Setting\\
+🔹 Base-to-Novel Setting<br>
 To train and test in the Base-to-Novel setting, use:
 ```bash
 bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
