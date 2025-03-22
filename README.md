@@ -50,3 +50,11 @@ pip install setuptools==59.5.0
 ```
 * For downloading the datasets, please follow https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md
   Once the datasets are downloaded, copy the semantic descriptions of the respective dataset into its folder.
+
+* For training and testing in the base-to-new setting, run the following command
+  ```bash
+  bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
+  bash scripts/sap/base2new_test.sh ${GPU} ${dataset} ${seed}
+
+  # For example:  bash scripts/sap/base2new_train.sh 0 eurosat 1
+  ```
