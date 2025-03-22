@@ -1,18 +1,12 @@
 # 🌟 Semantic Alignment for Prompt Tuning in Vision-Language Models
 
-📢 **Our work has been accepted at TMLR!** 🎉  
+📢 **Our work has been accepted at TMLR!**   
 🔗 [**OpenReview Link**](https://openreview.net/forum?id=avDr56QjSI)  
 
 ## 📌 Authors  
-Hari Chandana Kuchibhotla, Sai Srinivas Kancheti, Abbavaram Gowtham Reddy, and Vineeth N Balasubramanian  
-📍 Indian Institute of Technology Hyderabad (IITH)  
+[Hari Chandana Kuchibhotla[https://sites.google.com/view/hari-chandana-kuchibhotla/home], [Sai Srinivas Kancheti][https://ksais.github.io/], [Abbavaram Gowtham Reddy][https://gautam0707.github.io/], and [Vineeth N Balasubramanian][https://people.iith.ac.in/vineethnb/]
+📍 [Indian Institute of Technology Hyderabad (IITH)][https://www.iith.ac.in/]
 
-![GitHub Repo stars](https://img.shields.io/github/stars/HariChandana1102/Semantic-Alignment-for-Prompt-Tuning-in-Vision-Language-Models?style=social)  
-![License](https://img.shields.io/github/license/HariChandana1102/Semantic-Alignment-for-Prompt-Tuning-in-Vision-Language-Models?color=blue)  
-![Python Version](https://img.shields.io/badge/Python-3.8+-blue.svg)  
-![PyTorch Version](https://img.shields.io/badge/PyTorch-1.9.0-orange.svg)  
-
----
 
 ## 🔍 Abstract  
 Going beyond mere fine-tuning of vision-language models (VLMs), learnable **prompt tuning** has emerged as a promising, resource-efficient alternative. Despite their potential, effective prompt tuning faces the following challenges:
@@ -80,10 +74,10 @@ For example:
 bash scripts/sap/base2new_train.sh 0 eurosat 1
 ```
 
-🔹 Generalized Zero-Shot (GZS) Setting \\
+🔹 Generalized Zero-Shot (GZS) Setting <br>
 Modify SUB=new to SUB=all in the scripts to run in GZS mode.
 
-📜 Citation\\
+📜 Citation<br>
 If you find our work useful, please consider citing us:
 ```bash
 @article{SAP,
