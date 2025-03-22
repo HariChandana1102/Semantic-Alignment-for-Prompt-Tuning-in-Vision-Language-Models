@@ -5,7 +5,7 @@
 
 ## 📌 Authors  
 [Hari Chandana Kuchibhotla](https://sites.google.com/view/hari-chandana-kuchibhotla/home), [Sai Srinivas Kancheti](https://ksais.github.io/), [Abbavaram Gowtham Reddy](https://gautam0707.github.io/), and [Vineeth N Balasubramanian](https://people.iith.ac.in/vineethnb/) <br>
-📍 [Indian Institute of Technology Hyderabad, India (IITH)][https://www.iith.ac.in/]
+📍 [Indian Institute of Technology Hyderabad, India (IITH)](https://www.iith.ac.in/)
 
 
 ## 🔍 Abstract  
@@ -63,8 +63,7 @@ pip install setuptools==59.5.0
 For dataset setup and download, please refer to this [link](https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md)
 
 ### 🚀 Training & Evaluation
-🔹 Base-to-Novel Setting<br>
-      To train and test in the Base-to-Novel setting, use:
+🔹 Base-to-Novel Setting: To train and test in this setting, use:
 ```bash
 bash scripts/sap/base2new_train.sh ${GPU} ${dataset} ${seed}
 bash scripts/sap/base2new_test.sh ${GPU} ${dataset} ${seed}
@@ -74,8 +73,7 @@ For example:
 bash scripts/sap/base2new_train.sh 0 eurosat 1
 ```
 
-🔹 Generalized Zero-Shot (GZS) Setting <br>
-      Modify SUB=new to SUB=all in the scripts to run in GZS mode.
+🔹 Generalized Zero-Shot (GZS) Setting: Modify SUB=new to SUB=all in the scripts to run in GZS mode.
 
 📜 Citation<br>
 If you find our work useful, please consider citing us:
