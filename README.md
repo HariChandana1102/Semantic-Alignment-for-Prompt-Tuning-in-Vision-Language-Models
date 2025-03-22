@@ -47,8 +47,8 @@ pip install -r requirements.txt
 pip install setuptools==59.5.0
 ```
 # Datasets
-* For downloading the datasets, please follow https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md
-  Once the datasets are downloaded, copy the semantic descriptions of the respective dataset into its folder.
+* For downloading the datasets, please follow https://github.com/muzairkhattak/PromptSRC/blob/main/docs/DATASETS.md.
+
 
 # Training and Evaluation
 * For training and testing in the Base-to-Novel setting, run the following command
@@ -60,5 +60,14 @@ pip install setuptools==59.5.0
   ```
   To run the code in the GZS setting, change the SUB=new to SUB=all
 
-##### Acknowledgement: This readme file for installation and package requirements follows the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
+#### Acknowledgement: This readme file for installation and package requirements follows the PromptSRC (https://github.com/muzairkhattak/PromptSRC/blob/main/docs/INSTALL.md) official repository.
+
+# Citation
+If you find our work interesting or use it to develop it further, please cite us
+@article{SAP,
+  title={Semantic Alignment for Prompt Tuning in Vision-Language Models},
+  author={Hari Chandana Kuchibhotla, Sai Srinivas Kancheti, Abbavaram Gowtham Reddy and Vineeth N Balasubramanian},
+  journal={TMLR},
+  year={2024}
+}
 
